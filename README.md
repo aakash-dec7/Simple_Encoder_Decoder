@@ -24,18 +24,18 @@ The dataset should be stored in a CSV file named eng_spn.csv, with two columns:
 ## Architecture
 The model consists of the following components:
 
-**Encoder**
+**1. Encoder**
 * Embedding Layer: Maps input tokens to dense vectors.
 * LSTM Layer: Encodes input sequences into hidden and cell states.
 * Dropout Layer: Prevents overfitting by randomly deactivating neurons during training.
 
-**Decoder**
+**2. Decoder**
 * Embedding Layer: Maps target tokens to dense vectors.
 * LSTM Layer: Generates decoded sequences based on the Encoder's hidden states and the previous target tokens.
 * Linear Layer: Maps LSTM outputs to target vocabulary logits.
 * Dropout Layer: Prevents overfitting.
 
-**Seq2Seq**
+**3. Seq2Seq**
 * Combines the Encoder and Decoder for end-to-end sequence prediction.
 
 ## Hyperparameters
