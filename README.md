@@ -12,7 +12,7 @@ This project implements a simple Encoder-Decoder model using LSTM layers for seq
 * Implemented BLEU score evaluation to assess the performance of the model.
 
 ## Dataset
-The dataset used for training consists of paired sentences in English and French.
+The dataset used for training consists of paired sentences in English and Spanish.
 Data Preprocessing includes:
 * Adding special tokens (`<sos>` and `<eos>`) to target sentences.
 * Tokenization and padding of sentences to a maximum length.
