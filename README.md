@@ -1,7 +1,7 @@
 # Simple Encoder Decoder
 
 ## Overview
-This project implements a simple Encoder-Decoder model using LSTM layers for sequence-to-sequence (seq2seq) learning. The model is designed for neural machine translation (NMT) tasks, translating English sentences into French sentences. The Encoder encodes the input sentence into hidden states, and the Decoder uses these hidden states to generate the target sentence.
+This project implements a simple Encoder-Decoder model using LSTM layers for sequence-to-sequence (seq2seq) learning. The model is designed for neural machine translation (NMT) tasks, translating English sentences into Spanish sentences. The Encoder encodes the input sentence into hidden states, and the Decoder uses these hidden states to generate the target sentence.
 
 ## Features
 * Implements seq2seq architecture with LSTM layers for both Encoder and Decoder.
@@ -20,7 +20,7 @@ Data Preprocessing includes:
 
 The dataset should be stored in a CSV file named eng_spn.csv, with two columns:
 * English words/sentences
-* French words/sentences
+* Spanish words/sentences
 
 ## Architecture
 The model consists of the following components:
