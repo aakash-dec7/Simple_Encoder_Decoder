@@ -9,6 +9,7 @@ This project implements a simple Encoder-Decoder model using LSTM layers for seq
 * Ability to save and load training checkpoints.
 * Configurable hyperparameters for flexibility in model design.
 * Uses PyTorch for building and training the model.
+* Implemented BLEU score evaluation to assess the performance of the model.
 
 ## Dataset
 The dataset used for training consists of paired sentences in English and French.
